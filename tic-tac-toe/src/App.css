@@ -1,0 +1,40 @@
+.App {
+  Width: 100vw;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  padding: 0;
+  margin:0;
+}
+
+
+
+.gameBoard{
+  width: 35rem;
+  height: 35rem;
+  background-color: #e1e1e1;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex: 33%;
+  flex-direction: row;
+  border: 1px solid black;
+}
+.box{
+  flex:33%;
+  height: 100%;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 10rem;
+  color: black;
+
+}
